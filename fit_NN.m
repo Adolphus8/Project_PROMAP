@@ -46,8 +46,9 @@ net.layers{i}.transferFcn = 'poslin';
 end
 
 % Set up Division of Data for Training and Testing:
-net.divideParam.trainRatio = 0.8;
-net.divideParam.testRatio = 0.2;
+net.divideParam.trainRatio = 0.7;
+net.divideParam.testRatio = 0.15;
+net.divideParam.valRatio = 0.15;
 
 % Train the Network:
 [net,tr] = train(net,inputs',targets');
