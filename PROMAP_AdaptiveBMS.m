@@ -92,25 +92,25 @@ load('ANN_Mat_Files/Tensile/ANN1_Tensile_PS02.mat', 'net'); net1 = net;
 load('ANN_Mat_Files/Tensile/ANN2_Tensile_PS02.mat', 'net'); net2 = net;
 load('ANN_Mat_Files/Tensile/ANN3_Tensile_PS02.mat', 'net'); net3 = net;
 load('ANN_Mat_Files/Tensile/ANN4_Tensile_PS02.mat', 'net'); net4 = net;
-load('ANN_Mat_Files/Tensile/ANN5_Tensile_PS02.mat', 'net'); net5 = net;
+load('ANN_Mat_Files/Tensile/ANN6_Tensile_PS02.mat', 'net'); net5 = net;
 elseif tar == 2
 load('ANN_Mat_Files/Tensile/ANN1_Tensile_UTS.mat', 'net'); net1 = net;
 load('ANN_Mat_Files/Tensile/ANN2_Tensile_UTS.mat', 'net'); net2 = net;
 load('ANN_Mat_Files/Tensile/ANN3_Tensile_UTS.mat', 'net'); net3 = net;
 load('ANN_Mat_Files/Tensile/ANN4_Tensile_UTS.mat', 'net'); net4 = net;
-load('ANN_Mat_Files/Tensile/ANN5_Tensile_UTS.mat', 'net'); net5 = net;
+load('ANN_Mat_Files/Tensile/ANN6_Tensile_UTS.mat', 'net'); net5 = net;
 elseif tar == 3
 load('ANN_Mat_Files/Tensile/ANN1_Tensile_Elong.mat', 'net'); net1 = net;
 load('ANN_Mat_Files/Tensile/ANN2_Tensile_Elong.mat', 'net'); net2 = net;
 load('ANN_Mat_Files/Tensile/ANN3_Tensile_Elong.mat', 'net'); net3 = net;
 load('ANN_Mat_Files/Tensile/ANN4_Tensile_Elong.mat', 'net'); net4 = net;
-load('ANN_Mat_Files/Tensile/ANN6_Tensile_Elong.mat', 'net'); net5 = net;
+load('ANN_Mat_Files/Tensile/ANN5_Tensile_Elong.mat', 'net'); net5 = net;
 elseif tar == 4
 load('ANN_Mat_Files/Tensile/ANN1_Tensile_RofA.mat', 'net'); net1 = net;
 load('ANN_Mat_Files/Tensile/ANN2_Tensile_RofA.mat', 'net'); net2 = net;
 load('ANN_Mat_Files/Tensile/ANN3_Tensile_RofA.mat', 'net'); net3 = net;
 load('ANN_Mat_Files/Tensile/ANN4_Tensile_RofA.mat', 'net'); net4 = net;
-load('ANN_Mat_Files/Tensile/ANN5_Tensile_RofA.mat', 'net'); net5 = net;
+load('ANN_Mat_Files/Tensile/ANN6_Tensile_RofA.mat', 'net'); net5 = net;
 end
 
 CXann = {net1, net2, net3, net4, net5};
