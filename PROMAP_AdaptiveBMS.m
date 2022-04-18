@@ -26,7 +26,7 @@ load('ANN_Mat_Files/Creep_Rupture/ANN1_CreepRupture_Elong.mat', 'net'); net1 = n
 load('ANN_Mat_Files/Creep_Rupture/ANN2_CreepRupture_Elong.mat', 'net'); net2 = net;
 load('ANN_Mat_Files/Creep_Rupture/ANN3_CreepRupture_Elong.mat', 'net'); net3 = net;
 load('ANN_Mat_Files/Creep_Rupture/ANN4_CreepRupture_Elong.mat', 'net'); net4 = net;
-load('ANN_Mat_Files/Creep_Rupture/ANN6_CreepRupture_Elong.mat', 'net'); net5 = net;
+load('ANN_Mat_Files/Creep_Rupture/ANN5_CreepRupture_Elong.mat', 'net'); net5 = net;
 elseif tar == 3
 load('ANN_Mat_Files/Creep_Rupture/ANN1_CreepRupture_RA.mat', 'net'); net1 = net;
 load('ANN_Mat_Files/Creep_Rupture/ANN2_CreepRupture_RA.mat', 'net'); net2 = net;
