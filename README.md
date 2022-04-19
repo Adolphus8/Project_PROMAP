@@ -22,7 +22,7 @@ The "Additional Files" folder contains the following codes which can be executed
 This file executes the method of processing the material property data obtained from the National Institute for Materials Science (NIMS).
 </details>
 <details>
-<summary> 2) PROMAP_ANN_Training.m </summary> 
+<summary> 2) PROMAP_INCEFA_data_processing.m </summary> 
 This file executes the method of processing the material fracture data obtained from the INcreasing safety in NPPs by Covering gaps in Environmental Fatigue Assessment (INCEFA) project funded by H2020 (an EU funding programme for research and innovation).
 </details>
 
