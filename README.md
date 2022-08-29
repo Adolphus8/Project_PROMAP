@@ -33,7 +33,7 @@ The above 2 files also serve as a tutorial on the "cleaning" and processing of r
 
 * A. Lye, N. Prinja, and E. Patelli (2022). ANSIC Case Study - Project PROMAP. *In the Proceedings of the Advanced Nuclear Skills and Innovation Campus Showcase 2022*. doi: [10.13140/RG.2.2.12632.16645](https://doi.org/10.13140/RG.2.2.12632.16645)
 
-* A. Lye, N. Prinja, and E. Patelli (2022). Probabilistic Artificial Intelligence Prediction of Material Properties for Nuclear Reactor Designs. *In the Proceedings of the 32nd European Safety and Reliability Conference, 1*, Dublin, Ireland. doi: []()
+* A. Lye, N. Prinja, and E. Patelli (2022). Probabilistic Artificial Intelligence Prediction of Material Properties for Nuclear Reactor Designs. *In the Proceedings of the 32nd European Safety and Reliability Conference, 1*, Dublin, Ireland. doi: [10.3850/978-981-18-5183-4_S24-02-306-cd](https://rpsonline.com.sg/rps2prod/esrel22-epro/pdf/S24-02-306.pdf)
 
 ## Author:
 * Name: Adolphus Lye
