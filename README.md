@@ -28,12 +28,17 @@ This file executes the method of processing the material fracture data obtained 
 
 The above 2 files also serve as a tutorial on the "cleaning" and processing of raw data-set.
 
+## Numerical Example:
+As a practice, the user may refer to the folder titled "Numerical_Example" and run the code file "Numerical_example.m" while following through the example presented in the [Thesis](https://livrepository.liverpool.ac.uk/3170546/) (see Section 9.6). 
+
 ## Reference(s):
 * A. Lye, N. Prinja, and E. Patelli (2022). Probabilistic AI for Prediction of Material Properties (PROMAP). *In the Proceedings of the Advanced Nuclear Skills and Innovation Campus Showcase 2022*. doi: [10.13140/RG.2.2.32427.31527](https://doi.org/10.13140/RG.2.2.32427.31527)
 
 * A. Lye, N. Prinja, and E. Patelli (2022). ANSIC Case Study - Project PROMAP. *In the Proceedings of the Advanced Nuclear Skills and Innovation Campus Showcase 2022*. doi: [10.13140/RG.2.2.12632.16645](https://doi.org/10.13140/RG.2.2.12632.16645)
 
 * A. Lye, N. Prinja, and E. Patelli (2022). Probabilistic Artificial Intelligence Prediction of Material Properties for Nuclear Reactor Designs. *In the Proceedings of the 32nd European Safety and Reliability Conference, 1*, Dublin, Ireland. doi: [10.3850/978-981-18-5183-4_S24-02-306-cd](https://rpsonline.com.sg/rps2prod/esrel22-epro/pdf/S24-02-306.pdf)
+
+* A. Lye (2023). Robust and Efficient Probabilistic Approaches towards Parameter Identification and Model Updating. *PhD Thesis, University of Liverpool Repository*. doi: [10.17638/03170546](https://livrepository.liverpool.ac.uk/3170546/)
 
 ## Author:
 * Name: Adolphus Lye
