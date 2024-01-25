@@ -252,7 +252,6 @@ hold on; box on; grid on;
 h = fill([U(:,i);flipud(U(:,i))], [F(:,i)+1;flipud(1-F(:,i))],'m','FaceAlpha',0.1,'EdgeColor','m', 'handlevisibility', 'off');
 scatter(syn_mat(:,i), ones(size(syn_mat(:,i),1),1), s, 'rx')
 scatter(data_val(:,i), ones(size(data_val(:,i),1),1), s-5, 'b', 'filled')
-%scatter(data([id+1:end],i), ones(size(data([id+1:end],i),1),1), s-5, 'b', 'filled')
 scatter(data([1:10],i), ones(size(data([1:10],i),1),1), s-5, 'g', 'filled')
 xlabel(des{i}, 'Interpreter', 'latex'); yticklabels([]); set(gca, 'Fontsize', f)
 end
@@ -302,7 +301,7 @@ tic;
 time1 = toc;
 y_pred = transpose(net1(input_feature_real')); r2_score_val = score_model(target_feature_real, y_pred);
 y_pred = transpose(net1(input_feature')); r2_score_ver = score_model(target_feature, y_pred);
-%save('ANN1_Val_Ex3b', 'net1', 'tr1', 'time1', 'r2_score_ver', 'r2_score_val')
+save('ANN1_Val_Ex3b', 'net1', 'tr1', 'time1', 'r2_score_ver', 'r2_score_val')
 
 fprintf('Train ANN2 \n')
 tic;
