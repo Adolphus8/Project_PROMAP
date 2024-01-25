@@ -26,22 +26,19 @@ D = @(x) ((4.*L^3)./(E.*W.*T)).*sqrt((x(:,1)./(W.^2)).^2 + ((x(:,2)./(T.^2)).^2)
 Nsamps = 30;
 
 sigma_mea = 0.0003; % Measurement error [m]
-sigma1 = 3;        % Theta_1 error [N]
-sigma2 = 5;        % Theta_2 error [N]
 
-theta1_data = theta1_rnd(Nsamps) + sigma1*randn(Nsamps,1);
-theta2_data = theta2_rnd(Nsamps) + sigma2*randn(Nsamps,1);
+theta1_data = theta1_rnd(Nsamps); theta2_data = theta2_rnd(Nsamps);
 input_data = [theta1_data, theta2_data];
 measurement = D(input_data) + sigma_mea*randn(Nsamps,1);
 data = [input_data, measurement];
 
 %%
 % Plot Scatterplots of the data:
-des = {'$\theta_{1}$ $[N]$', '$\theta_{2}$ $[N]$', '$D$ $[m]$'}; id = 10; s = 18; f = 18;
+des = {'$\theta_{1}$ $[N]$', '$\theta_{2}$ $[N]$', '$D$ $[m]$'}; id = 10; 
 
 data_exp = data([1:id],:); data_val = data([id+1:end],:);
 
-figure;
+figure; s = 18; f = 18;
 subplot(2,2,1)
 hold on; box on; grid on;
 scatter(data_exp(:,1), data_exp(:,3), s, 'g', 'filled')
